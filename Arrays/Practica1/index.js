@@ -31,3 +31,5 @@ console.log(meses.reverse());
 let array2 = [1, 2, 3],
   array3 = [4, 3, 5];
 console.log(array2.concat(array3));
+
+console.log(array3.sort((a, b) => a - b));
