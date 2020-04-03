@@ -23,3 +23,17 @@ if (tcompra < efectivo) {
   let resta = tcompra - efectivo;
   console.log("No cumples con el dinero suficiente te faltan " + resta);
 }
+
+// Con operadores 
+
+let e = 1000;
+let tcarrito = 1800;
+let credito = 200;
+
+if(tcarrito < e || tcarrito < credito){
+    console.log('pagaste...');
+    
+} else {
+    console.log('no puedes pagar');
+    
+}
